@@ -1,50 +1,61 @@
-# 🏨 StayHub – Centralized Accommodation Platform  
+This project is a fully functional front-end Hotel Booking System where users can create an account, log in, browse hotels, and download a booking receipt.
 
-StayHub is a modern and responsive web application designed to simplify hotel discovery and exploration across multiple destinations. It provides users with a clean, intuitive interface to browse hotels, view detailed property information, and access essential travel-related services.
+🔹 How the Website Works
+▶️ Main Entry Page: loginpage.html
 
-This project focuses on delivering a smooth user experience through structured navigation, visually appealing layouts, and interactive frontend functionality.
+The user first opens Create Account and registers.
 
----
+User details (name, email, password) are saved using localStorage, so the account stays even after closing the browser.
 
-## 🌟 Key Features  
+After successful registration → the user can log in from loginpage.html.
 
-### 🌍 Multi-Destination Exploration  
-- Browse hotels across various popular locations  
-- Dedicated pages for each destination  
+After login → user is redirected to the Home / Hotel Listing page.
 
-### 🏨 Property Listings & Details  
-- View hotel listings with structured layouts  
-- Access detailed property pages for better decision-making  
+The user can select a hotel, choose dates, number of guests, and confirm booking.
 
-### 🔐 User Interaction  
-- Simple and user-friendly login interface  
-- Easy navigation between pages  
+When the booking is confirmed → the website automatically generates and downloads a booking receipt (.txt file).
 
-### 📱 Responsive Design  
-- Fully responsive layout for desktop and mobile devices  
-- Clean and modern UI/UX design  
+🔹 Features
+✅ User System
 
-### 📄 Additional Functional Pages  
-- FAQ section for common queries  
-- Contact page for user communication  
-- Services overview page  
-- Policies including privacy, terms, and cancellation  
+Create Account Page
 
-### ⚡ Interactive Frontend  
-- JavaScript-based interactivity for better user experience  
-- Dynamic elements for smooth navigation  
+Login Authentication
 
----
+Saves user data using localStorage
 
-## 🛠️ Tech Stack  
+Data stays even after refreshing or reopening browser
 
-| Technology | Purpose |
-|----------|--------|
-| HTML | Structure of web pages |
-| CSS | Styling and layout |
-| JavaScript | Interactivity and logic |
-| Node.js / Electron | Optional desktop app environment |
+✅ Booking System
 
----
+Responsive hotel cards
 
-## 📂 Project Structure  
+Hotel details popup (modal)
+
+Check-in / Check-out date selection
+
+Guest selection dropdown
+
+Booking Confirmation
+
+Automatic Booking Receipt Download (.txt)
+
+✅ Frontend UI
+
+Modern animations
+
+Gradients & clean layout
+
+Icons using Font Awesome
+
+Fully responsive across devices
+
+🔹 Technologies Used
+
+HTML5
+
+CSS3 (animations, gradients, responsive grid)
+
+JavaScript (modals, validation, authentication, receipt download)
+
+Font Awesome Icons
